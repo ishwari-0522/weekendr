@@ -1,0 +1,97 @@
+{
+  "templates": {
+    "Coffee & Conversations": {
+      "sequence": ["Cafe", "Bookstore", "Dessert"],
+      "budget_weights": {
+        "Cafe": 0.35,
+        "Bookstore": 0.30,
+        "Dessert": 0.35
+      },
+      "durations": {
+        "Cafe": 60,
+        "Bookstore": 60,
+        "Dessert": 45
+      }
+    },
+    "Date Night": {
+      "sequence": ["Cafe", "Restaurant", "Dessert", "View Point"],
+      "budget_weights": {
+        "Cafe": 0.15,
+        "Restaurant": 0.55,
+        "Dessert": 0.25,
+        "View Point": 0.05
+      },
+      "durations": {
+        "Cafe": 60,
+        "Restaurant": 90,
+        "Dessert": 45,
+        "View Point": 30
+      }
+    },
+    "Game On": {
+      "sequence": ["Gaming", "Restaurant", "Dessert"],
+      "budget_weights": {
+        "Gaming": 0.40,
+        "Restaurant": 0.40,
+        "Dessert": 0.20
+      },
+      "durations": {
+        "Gaming": 120,
+        "Restaurant": 90,
+        "Dessert": 45
+      }
+    },
+    "Food Trail": {
+      "sequence": ["Street Food", "Dessert", "Cafe"],
+      "budget_weights": {
+        "Street Food": 0.30,
+        "Dessert": 0.30,
+        "Cafe": 0.40
+      },
+      "durations": {
+        "Street Food": 45,
+        "Dessert": 45,
+        "Cafe": 60
+      }
+    },
+    "Nature Escape": {
+      "sequence": ["Park", "Lake", "Cafe"],
+      "budget_weights": {
+        "Park": 0.10,
+        "Lake": 0.10,
+        "Cafe": 0.80
+      },
+      "durations": {
+        "Park": 60,
+        "Lake": 60,
+        "Cafe": 60
+      }
+    },
+    "Creative Escape": {
+      "sequence": ["Workshop", "Cafe", "Museum"],
+      "budget_weights": {
+        "Workshop": 0.60,
+        "Cafe": 0.20,
+        "Museum": 0.20
+      },
+      "durations": {
+        "Workshop": 120,
+        "Cafe": 60,
+        "Museum": 90
+      }
+    },
+    "Retail Therapy": {
+      "sequence": ["Mall", "Cafe", "Dessert"],
+      "budget_weights": {
+        "Mall": 0.40,
+        "Cafe": 0.30,
+        "Dessert": 0.30
+      },
+      "durations": {
+        "Mall": 120,
+        "Cafe": 60,
+        "Dessert": 45
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "cities": {
+    "Pune": {
+      "state": "Maharashtra",
+      "country": "India",
+      "bounds": {
+        "min_lat": 18.43,
+        "max_lat": 18.62,
+        "min_lng": 73.74,
+        "max_lng": 73.96
+      },
+      "grid_step_lat": 0.015,
+      "grid_step_lng": 0.015,
+      "search_radius": 1000,
+      "predefined_areas": [
+        "Baner",
+        "Koregaon Park",
+        "Kalyani Nagar",
+        "Viman Nagar",
+        "Kothrud",
+        "Camp",
+        "Aundh",
+        "Hinjavadi"
+      ]
+    },
+    "Mumbai": {
+      "state": "Maharashtra",
+      "country": "India",
+      "bounds": {
+        "min_lat": 18.90,
+        "max_lat": 19.30,
+        "min_lng": 72.75,
+        "max_lng": 73.05
+      },
+      "grid_step_lat": 0.015,
+      "grid_step_lng": 0.015,
+      "search_radius": 1000,
+      "predefined_areas": [
+        "Bandra",
+        "Colaba",
+        "Andheri",
+        "Powai",
+        "Juhu",
+        "Fort",
+        "Worli",
+        "Malad"
+      ]
+    }
+  }
+}

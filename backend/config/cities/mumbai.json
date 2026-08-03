@@ -1,0 +1,177 @@
+{
+  "name": "Mumbai",
+  "state": "Maharashtra",
+  "country": "India",
+  "default_search_radius": 1000,
+  "search_grid_size": 0.012,
+  "collection_priority": 1,
+  "supported_categories": [
+    "Cafe", "Restaurant", "Dessert", "Street Food", "Mall", "Street Shopping",
+    "Gaming", "Go Karting", "Bowling", "Escape Room", "Movie Theatre", "Museum",
+    "Park", "Garden", "Lake", "Beach", "Fort", "View Point", "Temple", "Workshop",
+    "Live Music", "Comedy Club", "Rooftop", "Nightlife", "Sports", "Adventure",
+    "Nature", "Bookstore", "Coworking Cafe", "Pet Cafe"
+  ],
+  "areas": [
+    {
+      "name": "Bandra West",
+      "latitude": 19.0544,
+      "longitude": 72.8293,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Bandra East",
+      "latitude": 19.0607,
+      "longitude": 72.8530,
+      "search_radius": 1000,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Andheri West",
+      "latitude": 19.1363,
+      "longitude": 72.8276,
+      "search_radius": 1500,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Andheri East",
+      "latitude": 19.1176,
+      "longitude": 72.8631,
+      "search_radius": 1500,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Powai",
+      "latitude": 19.1176,
+      "longitude": 72.9060,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Lower Parel",
+      "latitude": 18.9953,
+      "longitude": 72.8300,
+      "search_radius": 1000,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Colaba",
+      "latitude": 18.9067,
+      "longitude": 72.8147,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Juhu",
+      "latitude": 19.1012,
+      "longitude": 72.8268,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Versova",
+      "latitude": 19.1351,
+      "longitude": 72.8141,
+      "search_radius": 1000,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Chembur",
+      "latitude": 19.0622,
+      "longitude": 72.8974,
+      "search_radius": 1500,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Ghatkopar",
+      "latitude": 19.0860,
+      "longitude": 72.9080,
+      "search_radius": 1200,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Borivali",
+      "latitude": 19.2307,
+      "longitude": 72.8567,
+      "search_radius": 2000,
+      "priority": "Low",
+      "future_expansion": true
+    },
+    {
+      "name": "Malad",
+      "latitude": 19.1828,
+      "longitude": 72.8488,
+      "search_radius": 1500,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Kandivali",
+      "latitude": 19.2060,
+      "longitude": 72.8500,
+      "search_radius": 1500,
+      "priority": "Low",
+      "future_expansion": true
+    },
+    {
+      "name": "Dadar",
+      "latitude": 19.0178,
+      "longitude": 72.8478,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Fort",
+      "latitude": 18.9340,
+      "longitude": 72.8370,
+      "search_radius": 1000,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Marine Drive",
+      "latitude": 18.9430,
+      "longitude": 72.8230,
+      "search_radius": 1000,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Churchgate",
+      "latitude": 18.9320,
+      "longitude": 72.8260,
+      "search_radius": 800,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Worli",
+      "latitude": 19.0150,
+      "longitude": 72.8180,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "BKC",
+      "latitude": 19.0600,
+      "longitude": 72.8600,
+      "search_radius": 1000,
+      "priority": "High",
+      "future_expansion": false
+    }
+  ]
+}

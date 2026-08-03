@@ -1,0 +1,5 @@
+[2026-07-04 05:11:36,110] INFO [weekendr.validation] [sync_runner.py:211]: Validation PASSED for place 'German Bakery' (Score: 100, Area: Koregaon Park)
+[2026-07-04 05:32:04,320] INFO [weekendr.validation] [confidence_checker.py:14]: Confidence: City was not inferred. Falling back to default: 'Pune'.
+[2026-07-04 05:32:05,004] INFO [weekendr.validation] [confidence_checker.py:14]: Confidence: City was not inferred. Falling back to default: 'Pune'.
+[2026-07-04 05:32:16,848] ERROR [weekendr.validation] [response_parser.py:32]: Failed to decode JSON from LLM: Expecting value: line 9 column 29 (char 268)
+[2026-07-04 05:32:16,849] INFO [weekendr.validation] [confidence_checker.py:14]: Confidence: City was not inferred. Falling back to default: 'Pune'.

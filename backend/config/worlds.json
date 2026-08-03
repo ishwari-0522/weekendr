@@ -1,0 +1,60 @@
+{
+  "worlds": [
+    {
+      "id": "coffee-conversations",
+      "title": "Coffee & Conversations",
+      "subtitle": "Unwind over cozy sips and deep talks",
+      "hero_quote": "A quiet table, a warm cup, and hours that stretch on.",
+      "description": "Perfect for cozy rainy afternoons, late-night reading sessions, and intimate catch-ups. Surfs around curated local micro-roasters, bookstore corners, and artisanal dessert spots.",
+      "theme": "indigo",
+      "scene_preset": "cozy_cafe",
+      "featured_categories": ["Cafe", "Bookstore", "Dessert"],
+      "featured_tags": ["Cozy", "Quiet", "Intimate"],
+      "featured_areas": ["Koregaon Park", "Kothrud", "Bandra"],
+      "default_duration": 180,
+      "recommended_group_types": ["Solo", "Couple", "Friends"]
+    },
+    {
+      "id": "date-night",
+      "title": "Date Night",
+      "subtitle": "Romantic settings and candlelight settings",
+      "hero_quote": "The evening dims, the city glows, and time slows down.",
+      "description": "Curated for romantic connections, twilight dinners, and breathtaking sky-high panoramas. Features candlelit tables, garden lounges, and scenic overlook view points.",
+      "theme": "rose",
+      "scene_preset": "romantic_restaurant",
+      "featured_categories": ["Cafe", "Restaurant", "Dessert", "View Point"],
+      "featured_tags": ["Romantic", "Candlelit", "Scenic"],
+      "featured_areas": ["Koregaon Park", "Aundh", "Juhu"],
+      "default_duration": 240,
+      "recommended_group_types": ["Couple"]
+    },
+    {
+      "id": "game-on",
+      "title": "Game On",
+      "subtitle": "Competitive laughs and arcade actions",
+      "hero_quote": "Level up your night with friends and play.",
+      "description": "Tailored for high-energy gaming lounges, virtual reality arcades, board game cafes, and casual burger bars.",
+      "theme": "violet",
+      "scene_preset": "gaming_arcade",
+      "featured_categories": ["Gaming", "Restaurant", "Dessert"],
+      "featured_tags": ["Lively", "Fun", "Competitive"],
+      "featured_areas": ["Viman Nagar", "Kothrud", "Andheri"],
+      "default_duration": 240,
+      "recommended_group_types": ["Friends", "Family"]
+    },
+    {
+      "id": "food-trail",
+      "title": "Food Trail",
+      "subtitle": "A sensory sweep of culinary secrets",
+      "hero_quote": "Every bite tells a story of local spices and traditions.",
+      "description": "Explores local food stalls, historical desserts parlors, and hidden street foods corners.",
+      "theme": "amber",
+      "scene_preset": "food_street",
+      "featured_categories": ["Street Food", "Dessert", "Cafe"],
+      "featured_tags": ["Culinary", "Traditional", "Local"],
+      "featured_areas": ["Camp", "Deccan", "Colaba"],
+      "default_duration": 185,
+      "recommended_group_types": ["Solo", "Couple", "Friends", "Family"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[2026-07-04 04:52:13,715] INFO in logging [C:\Users\ishwa\Desktop\weekendr new\backend\app\utils\logging.py:47]: Logging configured successfully. Mode: Debug
+[2026-07-04 04:52:13,958] INFO in __init__ [C:\Users\ishwa\Desktop\weekendr new\backend\app\__init__.py:41]: Registered blueprint auth at /api/auth
+[2026-07-04 04:52:13,960] INFO in __init__ [C:\Users\ishwa\Desktop\weekendr new\backend\app\__init__.py:41]: Registered blueprint users at /api/users
+[2026-07-04 04:52:13,960] INFO in __init__ [C:\Users\ishwa\Desktop\weekendr new\backend\app\__init__.py:41]: Registered blueprint places at /api/places
+[2026-07-04 04:52:13,961] INFO in __init__ [C:\Users\ishwa\Desktop\weekendr new\backend\app\__init__.py:41]: Registered blueprint planner at /api/planner
+[2026-07-04 04:52:13,963] INFO in __init__ [C:\Users\ishwa\Desktop\weekendr new\backend\app\__init__.py:41]: Registered blueprint memories at /api/memories
+[2026-07-04 04:52:13,964] INFO in __init__ [C:\Users\ishwa\Desktop\weekendr new\backend\app\__init__.py:41]: Registered blueprint maps at /api/maps
+[2026-07-04 04:52:13,965] INFO in __init__ [C:\Users\ishwa\Desktop\weekendr new\backend\app\__init__.py:41]: Registered blueprint assistant at /api/assistant

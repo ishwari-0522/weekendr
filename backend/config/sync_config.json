@@ -1,0 +1,7 @@
+{
+  "api_delay_seconds": 1.5,
+  "retry_count": 3,
+  "min_quality_score": 40,
+  "duplicate_distance_meters": 50,
+  "duplicate_name_threshold": 0.6
+}

@@ -1,0 +1,177 @@
+{
+  "name": "Pune",
+  "state": "Maharashtra",
+  "country": "India",
+  "default_search_radius": 1000,
+  "search_grid_size": 0.012,
+  "collection_priority": 1,
+  "supported_categories": [
+    "Cafe", "Restaurant", "Dessert", "Street Food", "Mall", "Street Shopping",
+    "Gaming", "Go Karting", "Bowling", "Escape Room", "Movie Theatre", "Museum",
+    "Park", "Garden", "Lake", "Fort", "View Point", "Temple", "Workshop",
+    "Live Music", "Comedy Club", "Rooftop", "Nightlife", "Sports", "Adventure",
+    "Nature", "Bookstore", "Coworking Cafe", "Pet Cafe"
+  ],
+  "areas": [
+    {
+      "name": "Baner",
+      "latitude": 18.5590,
+      "longitude": 73.7787,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Balewadi",
+      "latitude": 18.5760,
+      "longitude": 73.7720,
+      "search_radius": 1000,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "FC Road",
+      "latitude": 18.5255,
+      "longitude": 73.8413,
+      "search_radius": 800,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "JM Road",
+      "latitude": 18.5218,
+      "longitude": 73.8447,
+      "search_radius": 800,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Koregaon Park",
+      "latitude": 18.5362,
+      "longitude": 73.8890,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Kalyani Nagar",
+      "latitude": 18.5463,
+      "longitude": 73.9029,
+      "search_radius": 1000,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Viman Nagar",
+      "latitude": 18.5679,
+      "longitude": 73.9143,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Kothrud",
+      "latitude": 18.5074,
+      "longitude": 73.8077,
+      "search_radius": 1500,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Shivajinagar",
+      "latitude": 18.5312,
+      "longitude": 73.8445,
+      "search_radius": 1000,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Camp",
+      "latitude": 18.5137,
+      "longitude": 73.8789,
+      "search_radius": 1200,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Hadapsar",
+      "latitude": 18.5089,
+      "longitude": 73.9259,
+      "search_radius": 1500,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Hinjewadi",
+      "latitude": 18.5913,
+      "longitude": 73.7389,
+      "search_radius": 2000,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Wakad",
+      "latitude": 18.5987,
+      "longitude": 73.7689,
+      "search_radius": 1500,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Pimple Saudagar",
+      "latitude": 18.5984,
+      "longitude": 73.7971,
+      "search_radius": 1200,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Magarpatta",
+      "latitude": 18.5147,
+      "longitude": 73.9248,
+      "search_radius": 1000,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Aundh",
+      "latitude": 18.5580,
+      "longitude": 73.8075,
+      "search_radius": 1000,
+      "priority": "High",
+      "future_expansion": false
+    },
+    {
+      "name": "Bavdhan",
+      "latitude": 18.5190,
+      "longitude": 73.7845,
+      "search_radius": 1200,
+      "priority": "Low",
+      "future_expansion": true
+    },
+    {
+      "name": "Karve Nagar",
+      "latitude": 18.4900,
+      "longitude": 73.8188,
+      "search_radius": 1200,
+      "priority": "Low",
+      "future_expansion": true
+    },
+    {
+      "name": "Erandwane",
+      "latitude": 18.5100,
+      "longitude": 73.8340,
+      "search_radius": 1000,
+      "priority": "Medium",
+      "future_expansion": false
+    },
+    {
+      "name": "Sinhagad Road",
+      "latitude": 18.4837,
+      "longitude": 73.8211,
+      "search_radius": 1500,
+      "priority": "Low",
+      "future_expansion": true
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "categories": {
+    "Cafe": {
+      "google_types": ["cafe"],
+      "priority": "High"
+    },
+    "Restaurant": {
+      "google_types": ["restaurant"],
+      "priority": "High"
+    },
+    "Dessert": {
+      "google_types": ["bakery"],
+      "search_keywords": ["dessert", "ice cream", "cake", "waffle"],
+      "priority": "High"
+    },
+    "Street Food": {
+      "google_types": ["restaurant"],
+      "search_keywords": ["street food", "chaat", "panipuri", "dhabha"],
+      "priority": "High"
+    },
+    "Mall": {
+      "google_types": ["shopping_mall"],
+      "priority": "Medium"
+    },
+    "Street Shopping": {
+      "google_types": ["clothing_store", "department_store", "shoe_store"],
+      "search_keywords": ["market", "street shopping", "bazaar"],
+      "priority": "Medium"
+    },
+    "Gaming": {
+      "google_types": ["amusement_center"],
+      "search_keywords": ["gaming zone", "arcade", "play zone", "laser tag"],
+      "priority": "High"
+    },
+    "Go Karting": {
+      "google_types": ["amusement_center"],
+      "search_keywords": ["go karting", "karting track"],
+      "priority": "High"
+    },
+    "Bowling": {
+      "google_types": ["bowling_alley"],
+      "priority": "High"
+    },
+    "Escape Room": {
+      "google_types": ["amusement_center"],
+      "search_keywords": ["escape room", "mystery rooms"],
+      "priority": "High"
+    },
+    "Movie Theatre": {
+      "google_types": ["movie_theater"],
+      "priority": "Medium"
+    },
+    "Museum": {
+      "google_types": ["museum", "art_gallery"],
+      "priority": "Low"
+    },
+    "Park": {
+      "google_types": ["park"],
+      "priority": "Medium"
+    },
+    "Garden": {
+      "google_types": ["park"],
+      "search_keywords": ["garden", "botanical garden"],
+      "priority": "Medium"
+    },
+    "Lake": {
+      "google_types": ["natural_feature"],
+      "search_keywords": ["lake", "dam"],
+      "priority": "Medium"
+    },
+    "Beach": {
+      "google_types": ["natural_feature"],
+      "search_keywords": ["beach", "sea face"],
+      "priority": "Medium"
+    },
+    "Fort": {
+      "google_types": ["tourist_attraction"],
+      "search_keywords": ["fort", "killa"],
+      "priority": "Medium"
+    },
+    "View Point": {
+      "google_types": ["tourist_attraction"],
+      "search_keywords": ["viewpoint", "sunset point", "hill top"],
+      "priority": "Medium"
+    },
+    "Temple": {
+      "google_types": ["place_of_worship", "hindu_temple"],
+      "priority": "Low"
+    },
+    "Workshop": {
+      "google_types": ["school"],
+      "search_keywords": ["pottery workshop", "art class", "cooking class"],
+      "priority": "Medium"
+    },
+    "Live Music": {
+      "google_types": ["bar", "night_club"],
+      "search_keywords": ["live music", "gig venue", "acoustic nights"],
+      "priority": "High"
+    },
+    "Comedy Club": {
+      "google_types": ["amusement_center"],
+      "search_keywords": ["standup comedy", "comedy club", "comedy show"],
+      "priority": "High"
+    },
+    "Rooftop": {
+      "google_types": ["bar", "restaurant"],
+      "search_keywords": ["rooftop lounge", "rooftop restaurant"],
+      "priority": "High"
+    },
+    "Nightlife": {
+      "google_types": ["night_club", "bar", "pub"],
+      "priority": "High"
+    },
+    "Sports": {
+      "google_types": ["sports_complex", "stadium"],
+      "search_keywords": ["turf", "sports club", "badminton court"],
+      "priority": "Medium"
+    },
+    "Adventure": {
+      "google_types": ["amusement_park"],
+      "search_keywords": ["trekking", "parasailing", "adventure park", "zipline"],
+      "priority": "Medium"
+    },
+    "Nature": {
+      "google_types": ["natural_feature", "park"],
+      "priority": "Medium"
+    },
+    "Bookstore": {
+      "google_types": ["book_store"],
+      "priority": "Medium"
+    },
+    "Coworking Cafe": {
+      "google_types": ["cafe"],
+      "search_keywords": ["coworking cafe", "work cafe", "study cafe"],
+      "priority": "Medium"
+    },
+    "Pet Cafe": {
+      "google_types": ["cafe"],
+      "search_keywords": ["dog cafe", "cat cafe", "pet friendly cafe"],
+      "priority": "Medium"
+    }
+  }
+}
