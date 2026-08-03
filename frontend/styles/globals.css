@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Design System Additions */
+  --color-highlight: var(--highlight);
+  --color-highlight-foreground: var(--highlight-foreground);
+
+  /* Shadows */
+  --shadow-low: 0 1px 2px 0 rgba(0, 0, 0, 0.35);
+  --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.4);
+  --shadow-high: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.5);
+  --shadow-overlay: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 10px 10px -5px rgba(0, 0, 0, 0.6);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+:root {
+  /* Restrained palette - Dark Cinematic Base */
+  --background: #080b11;
+  --foreground: #f3f4f6;
+  
+  --card: #111622;
+  --card-foreground: #f3f4f6;
+  
+  --popover: #111622;
+  --popover-foreground: #f3f4f6;
+  
+  --primary: #6366f1; /* Premium Indigo Accent */
+  --primary-foreground: #ffffff;
+  
+  --secondary: #1e2638;
+  --secondary-foreground: #e5e7eb;
+  
+  --highlight: #f59e0b; /* Warm Amber Highlight */
+  --highlight-foreground: #080b11;
+
+  --muted: #1e2536;
+  --muted-foreground: #9ca3af;
+  
+  --accent: #1e2638;
+  --accent-foreground: #ffffff;
+  
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  
+  --border: #1f293d;
+  --input: #111622;
+  --ring: #6366f1;
+  --radius: 0.5rem;
+
+  /* Motion Tokens */
+  --duration-fast: 0.15s;
+  --duration-medium: 0.25s;
+  --duration-slow: 0.4s;
+  --duration-page: 0.25s;
+  --duration-hover: 0.15s;
+  --duration-press: 0.1s;
+  --duration-exit: 0.25s;
+
+  /* Premium Easing Presets */
+  --ease-premium-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-premium-in-out: cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+/* Typography Utilities */
+@utility display-xl {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+@utility display-large {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+@utility page-title {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+}
+
+@utility section-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+@utility body-large {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+@utility body-text {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@utility caption-text {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+@utility label-text {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+@utility button-text {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* Borders styles */
+@utility border-subtle {
+  border: 1px solid var(--border);
+}
+
+@utility border-interactive {
+  border: 1px solid #374151;
+}
+
+@utility border-focused {
+  border: 1px solid var(--primary);
+}
+
+@utility border-error {
+  border: 1px solid var(--destructive);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
